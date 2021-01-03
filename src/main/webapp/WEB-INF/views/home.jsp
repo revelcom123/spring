@@ -10,18 +10,4 @@
 	<P>The time on the server is ${serverTime}.</P>
 </body>
 </html>
-<script>
-	$('#excute').click(function() {
-		$.ajax({
-			url : '/boad/view',
-			type : 'post',
-			data : ('form').serializable,
-			success:function(data) {
-				$('#time').text(data);
-				
-			}
 
-
-		})
-	})
-</script>
