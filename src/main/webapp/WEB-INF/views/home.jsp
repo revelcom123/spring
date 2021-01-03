@@ -8,6 +8,7 @@
 	<h1>Hello world!</h1>
 
 	<P>this time is ${serverTime}.</P>
+	<P>this time is ${serverTime}.</P>
 	
 </body>
 </html>
